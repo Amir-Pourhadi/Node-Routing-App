@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "Uriah Spencer",
+    "email": "uriahspencer@aol.net",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "username": "Erich Roberts",
+    "email": "erichroberts@yahoo.couk",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "username": "Nina Bowman",
+    "email": "ninabowman@protonmail.org",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 4,
+    "username": "Selma James",
+    "email": "selmajames@google.com",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 5,
+    "username": "Cheyenne Walsh",
+    "email": "cheyennewalsh@icloud.com",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "username": "Peter Mills",
+    "email": "petermills@outlook.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "username": "Ima Ramos",
+    "email": "imaramos@icloud.org",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 8,
+    "username": "Althea Salazar",
+    "email": "altheasalazar381@yahoo.couk",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 9,
+    "username": "Barry Hall",
+    "email": "barryhall5185@protonmail.com",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "username": "Samson Wright",
+    "email": "samsonwright6429@google.couk",
+    "gender": "male",
+    "status": "active"
+  }
+]

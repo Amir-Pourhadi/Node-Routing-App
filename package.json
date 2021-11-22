@@ -1,0 +1,13 @@
+{
+  "name": "routing-app",
+  "version": "1.0.0",
+  "description": "Simple Node App to practice routing!",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Amir Pourhadi",
+  "license": "ISC"
+}

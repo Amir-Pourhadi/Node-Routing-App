@@ -17,4 +17,42 @@ route.get("/accounts", (req, res) => {
   }
 });
 
+/**
+ * @route POST /api/accounts
+ * @desc Create a new account
+ * @access Public
+ * @returns {object} 201 - All accounts
+ * @returns {Error}  500 - Unexpected error
+ */
+route.post("/accounts", (req, res) => {
+  try {
+    const newAccount = req.body;
+    accounts.push(newAccount);
+    res.json({ userData: accounts });
+  } catch (error) {
+    res.status(500).send(error);
+  }
+});
+
+/**
+ * @route Get /api/accounts/:id
+ * @desc Get a single account
+ * @access Public
+ * @returns {object} 200 - An account
+ * @returns {Error}  500 - Unexpected error
+ */
+route.get("/accounts/:id", (req, res) => {
+  try {
+    const accountId = +req.params.id;
+    const getAccount = accounts.find((account) => account.id === accountId);
+    if (getAccount) {
+      res.json({ userData: getAccount });
+    } else {
+      res.status(404).send("Account not found");
+    }
+  } catch (error) {
+    res.status(500).send(error);
+  }
+});
+
 module.exports = route;

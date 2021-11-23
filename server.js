@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
   res.end("Routing App!");
 });
 
+app.use((req, res) => {
+  res.status(404).send({ url: req.url, message: "Page not found", status: 404 });
+});
+
 app.listen(port, () => {
   console.log(`Server is listening on port http://localhost:${port}`);
 });
